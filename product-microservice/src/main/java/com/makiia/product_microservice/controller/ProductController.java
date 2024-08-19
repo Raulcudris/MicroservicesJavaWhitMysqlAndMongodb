@@ -1,11 +1,9 @@
 package com.makiia.product_microservice.controller;
-
 import com.makiia.product_microservice.Entity.ProductEntity;
 import com.makiia.product_microservice.Repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
