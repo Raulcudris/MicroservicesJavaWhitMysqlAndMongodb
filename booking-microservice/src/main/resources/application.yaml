@@ -2,13 +2,11 @@ server:
   port: 0
 
 spring:
+  cloud:
+    config:
+      profile: dev
   application:
     name: booking-microservice
-  datasource:
-      url: "jdbc:mysql://localhost/bookingdb"
-      jmx-enabled: true
-      password: root
-      username: admin
 
 eureka:
   instance:
