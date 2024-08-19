@@ -4,20 +4,12 @@ server:
 spring:
   application:
     name: booking-microservice
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate.jdbc.lob.non_contextual_creation: true
   datasource:
       url: "jdbc:mysql://localhost/bookingdb"
       jmx-enabled: true
       password: root
       username: admin
 
-
 eureka:
   instance:
     instance-id: ${spring.application.name}:${random.uuid}
-
-
