@@ -10,10 +10,10 @@ spring:
     name: product-microservice
 
 management:
-    endpoints:
-        web:
-          exposure:
-              include: *
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 server:
   port: 0
