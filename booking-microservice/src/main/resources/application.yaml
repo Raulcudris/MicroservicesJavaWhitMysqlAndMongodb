@@ -1,3 +1,6 @@
+server:
+  port: 0
+
 spring:
   application:
     name: booking-microservice
@@ -11,4 +14,10 @@ spring:
       jmx-enabled: true
       password: root
       username: admin
+
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
+
 
