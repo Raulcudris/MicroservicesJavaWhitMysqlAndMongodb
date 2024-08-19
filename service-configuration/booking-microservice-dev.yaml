@@ -4,11 +4,11 @@ booking:
 
 spring:
   datasource:
-    #url: "jdbc:mysql://localhost/bookingdb"
+    url: "jdbc:mysql://localhost/bookingdb"
     #jmx-enabled: true
     #password: root
     #username: admin
-  jpa:
+  #jpa:
     #hibernate: 
       #ddl-auto: update
       #show-sql: true
