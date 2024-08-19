@@ -8,4 +8,4 @@ spring:
       uri: mongodb://127.0.0.1:27017/Product-Service
 
 app:
-  testProp: Property of Test
+  testProp: Property of Test Update
