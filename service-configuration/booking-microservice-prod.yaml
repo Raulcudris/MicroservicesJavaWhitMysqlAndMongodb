@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: "jdbc:mysql://localhost/bookingdb"
-    #jmx-enabled: true
+    jmx-enabled: true
     #password: root
     #username: admin
 booking:

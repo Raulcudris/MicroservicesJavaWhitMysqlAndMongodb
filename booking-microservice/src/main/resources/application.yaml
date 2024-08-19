@@ -7,6 +7,10 @@ spring:
       profile: dev
   application:
     name: booking-microservice
+  datasource:
+      jmx-enabled: true
+      password: root
+      username: admin
 
 eureka:
   instance:
