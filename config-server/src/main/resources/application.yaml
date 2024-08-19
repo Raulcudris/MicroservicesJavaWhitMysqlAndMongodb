@@ -3,12 +3,12 @@ spring:
     config:
       server:
         git:
+          default-label: service-configuration
           uri: https://github.com/Raulcudris/MicroservicesJavaWhitMysqlAndMongodb.git
-          clone-on-start: true
+          search-paths: service-configuration
   application:
   name: config-server
 
-server:
-  port: 8888
+
 
 
